@@ -30,10 +30,17 @@ Step 6:
 write() is used to write the lines of main file to the empty file or to the directed file.
 
 ## PROGRAM:
+```
+'''
+Developed by: P Sri Varshan
+Register Number:22008051
+'''
+with open('text.txt','r') as firstfile:
+    with open('text2.txt','a') as secondfile:
+        for line in firstfile:
+            secondfile.write(line)
 
-
-
-
+```
 ### OUTPUT:
 
 #### First File
